@@ -1,0 +1,67 @@
+@font-face{
+    font-family: digital-7;
+    src: url("../fonts/style-7_digital-7/digital-7 (mono).ttf")
+}
+
+@font-face{
+    font-family: BlackOpsOne;
+    src: url("../fonts/BlackOpsOne-Regular.ttf")
+}
+
+.btn{
+    width: 100%
+}
+.ansBtn{
+    background-color: transparent;
+    border: none; 
+}
+
+h2, p{
+    width: 100%;
+    text-align: center;
+}
+
+#reset{
+    background: rgb(38, 75, 87);
+    color: white;
+    font-weight: bolder;
+}
+
+.scoreboard-content{
+    font-family: digital-7;
+    background: black;
+    color: yellow;
+    font-size: 250%; 
+    border-style: solid;
+    border-color: white;
+    height: 50px;
+    line-height: 125%;
+    margin-top: 0px;
+    
+}
+
+
+
+#scoreboard-title{
+    font-family: BlackOpsOne;
+    color: white;
+    text-align: center;
+}
+
+#scoreboard-title:hover, .scoreboard-content:hover{
+    cursor: pointer;
+}
+
+#scoreboard{
+    background: gray;
+    padding: none;
+}
+
+.msg{
+    font-size: 16px;
+    margin-top: 20px;
+    padding: 10px;
+    border-style: none;
+    border-width: 0px;
+
+}
